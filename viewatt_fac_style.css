@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+body
+{
+	background-color:#f2f2f2;
+}
+
+td
+{
+	width:180px;
+	padding:10px;
+	font-size:22px;
+}
+
+button
+{
+	top:150px;
+	position:relative;
+}
+
+table,tr,td
+{
+	padding:12px;
+	border:1px solid;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+tr:hover
+{
+	background-color:#e5e5e5;
+}
+
+tr:first-child
+{
+	background-color:black;
+	color:white;
+}
+
+tr:first-child:hover
+{
+	background-color:black;
+}

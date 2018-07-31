@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+
+body
+{
+	background-color:#f2f2f2;
+}
+
+#maindiv
+{
+	position:relative;
+	top:70px;
+}
+
+#head
+{
+	position:relative;
+	padding:25px;
+}
+
+#head_content
+{
+	position:relative;
+	font-family: 'Lobster', cursive;
+	font-size:45px;
+	letter-spacing:2px;
+	padding-bottom:30px;
+	border-bottom:2px solid #cccccc;
+}
+
+#logout
+{
+	position:relative;
+	float:right;
+	border:2px solid;
+	font-size:20px;
+	padding:12px;
+	margin-top:12px;
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+}
+
+#action
+{
+	padding:0px;
+}
+
+table.a,tr.a,td.a
+{
+	padding:20px;
+}
+
+td.a
+{
+	width:100%;
+	border:1px solid;
+	font-family: 'Rokkitt', serif;
+	font-size:30px;
+}
+
+td.a:hover
+{
+	background-color:#e0e0e0;
+	color:white;
+	border-color:black;
+	cursor:pointer;
+}
